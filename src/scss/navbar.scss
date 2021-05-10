@@ -1,0 +1,103 @@
+.navbar {
+    top: 0;
+    left: 0;
+    position: sticky;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    display: flex;
+    padding: 10px 20px;
+    background-color: white;
+
+    .logo {
+        position: relative;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        img {
+            height: 40px;
+            width: 40px;
+        }
+
+        h2 {
+            margin-left: 10px;
+            font-size: 2.2rem;
+            color: rgb(77, 77, 77);
+            font-weight: 600;
+        }
+    }
+
+    .search-box {
+        height: 48px;
+        background-color: #f1f3f4;
+        min-width: 720px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        margin-right: 70px;
+        margin-left: 100px;
+
+        input {
+            background-color: #f1f3f4;
+            border: none;
+            margin-left: 15px;
+            font-size: 1.45rem;
+            font-family: Open Sans;
+            font-weight: 600;
+            border-radius: 10px;
+            width: 100%;
+            padding: 10px;
+            outline: none;
+        }
+
+    }
+
+    .right {
+        display: flex;
+        height: 48px;
+        width: 170px;
+
+        div {
+            display: flex;
+            align-items: center;
+            line-height: 48px;
+
+            img {
+                margin: 0 7px;
+                height: 24px;
+                width: 24px;
+            }
+
+            img#profile-img {
+                height: 35px;
+                width: 35px;
+                border-radius: 50%;
+            }
+
+            div#google-apps-bg {
+                height: 30px;
+                width: 30px;
+                display: grid;
+                place-items: center;
+            }
+
+            &:nth-child(1) {
+                margin-right: 30px;
+            }
+        }
+    }
+}
+
+.hover {
+    height: 24px;
+    width: 24px;
+    box-sizing: content-box;
+    padding: 7px;
+    border-radius: 50%;
+
+    &:hover {
+        background-color: #e3e5e6;
+        cursor: pointer;
+    }
+}
