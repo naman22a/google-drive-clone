@@ -1,5 +1,5 @@
 # Google Drive Clone
-# [Website Link](https://google-drive12345.netlify.app/my-drive)
+# [Website Link](https://google-drive12345.netlify.app)
 
 ## [Install nodejs](https://nodejs.org/en/)
 
